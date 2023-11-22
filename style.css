@@ -1,0 +1,642 @@
+body{
+    max-width: 1366px;
+    margin: auto;
+    background-color: #191919;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* навигация */
+
+nav{
+    height: 120px;
+}
+
+.navigation{
+    height: 70px;
+    display: inline-flex;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 777px;
+}
+
+.nav-buttons{
+    display: flex;
+    width: 403px;
+    height: 67px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.nav-buttons a{
+    color: white;
+    text-decoration: none;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+.nav-buttons .n-b1{
+    color:#118DA8;
+}
+
+/* шапка */
+
+.header-content{
+    height: 915px;
+
+    flex-shrink: 0;
+}
+.h-content-zone{
+    flex-shrink: 0;
+}
+.h-content-card{
+    display: flex;
+    padding-right: 0px;
+    justify-content: center;
+    gap: 60px;
+}
+.h-content-img{
+    width: 650px;
+    height: 873px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: url(/images/header-content/IMAGE\ \(7\).png), lightgray 50% / cover no-repeat;
+}
+.h-c-text-zone{
+    width: 530px;
+    height: 610.578px;
+}
+.h-empty-block{
+    width: 530px;
+    height: 164px;
+    flex-shrink: 0;
+}
+.applications{
+    display: inline-flex;
+    height: 32px;
+    padding-right: 0px;
+    align-items: flex-start;
+    gap: 17px;
+    flex-shrink: 0;
+}
+.more-content-zone h5{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.mcz-h1-1{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px; /* 125.714% */
+    letter-spacing: 3.2px;
+}
+.mcz-h1-2{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 110% */
+    letter-spacing: 3.2px;
+}
+/* контент */
+
+/* 1-ая секция */
+.section-1{
+    height: 2088px;
+    flex-shrink: 0;
+}
+.s1-ep{
+    height: 100px;
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+    
+}
+.s1-ep h1{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 79.2px; /* 123.75% */
+    letter-spacing: 2.88px;
+}
+.s1-ep-button{
+    margin-top: 50%;
+    height: 30%;
+    background: #118DA8;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+    /* текст */
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+}
+
+/* карточки */
+
+
+.s1-cards-zone{
+    align-items: center;
+}
+.s1-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 60px;
+}
+/* карта 1 */
+.s1-card1{
+    width: 1300px;
+    height: 545px;
+    border-radius: 32px;
+    background: black;   
+}
+.card1-cont{
+    display: flex;
+    height: 465px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 53px;
+    flex-shrink: 0;
+    margin-top: 30px;
+}
+.card1-img{
+    width: 389px;
+    height: 465px;
+    background: url(images/cards-img/card1.png), lightgray 50% / cover no-repeat;
+}
+.card1-text{
+    width: 778px;
+    height: 465px;
+    
+}
+.c1-button1{
+    background:#191919;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+    /* текст */
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+}
+.c1-t-content .c1-ep{
+    color:#118DA8;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+}
+.c1-t-content h1{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70.4px; /* 110% */
+    letter-spacing: 2.56px; 
+}
+.c1-t-content h5{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+}
+.c1-button2{
+    background: #118DA8;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+    /* текст */
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+}
+/* карта 2 */
+.s1-card2{
+    width: 1300px;
+    height: 512px;
+    border-radius: 32px;
+    background: black;
+}
+.card2-cont{
+    display: flex;
+    height: 432px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 53px;
+    flex-shrink: 0;
+    margin-top: 30px;
+}
+.card2-img{
+    width: 389px;
+    height: 432px;
+    background: url(images/cards-img/card2.png), lightgray 50% / cover no-repeat;
+}
+.card2-text{
+    width: 778px;
+    height: 432px;
+    padding: auto;
+}
+.c2-button1{
+    background:#191919;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px; 
+    /* текст */
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+}
+.c2-t-content .c2-ep{
+    color:#118DA8;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+}
+.c2-t-content h1{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70.4px; /* 110% */
+    letter-spacing: 2.56px;
+}
+.c2-t-content h5{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+}
+.c2-button2{
+    background: #118DA8;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+    /* текст */
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+}
+
+/* карта 3 */
+.s1-card3{
+    width: 1300px;
+    height: 512px; 
+    border-radius: 32px;
+    background:black;       
+}
+.card3-cont{
+    display: flex;
+    height: 465px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 53px;
+    flex-shrink: 0;
+    margin-top: 30px;
+}
+.card3-img{
+    width: 389px;
+    height: 432px;
+    background: url(images/cards-img/card3.png), lightgray 50% / cover no-repeat;
+}
+.card3-text{
+    width: 778px;
+    height: 465px;
+    
+}
+.c3-button1{
+    background:#191919;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px; 
+    /* текст */
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+}
+.c3-t-content .c3-ep{
+    color:#118DA8;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+}
+.c3-t-content h1{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70.4px; /* 123.509% */
+    letter-spacing: 2.56px;
+}
+.c3-t-content h5{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+}
+.c3-button2{
+    background: #118DA8;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+    /* текст */
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+}
+
+/* 2-ая секция */
+
+.jacob{
+    width: 1400px;
+    height: 943px;
+    flex-shrink: 0;
+    padding: 30px 30px 30px 30px;
+}
+.s2-content-zone{
+    display: flex;
+    width: 1300px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.s2-text-card{
+    width: 590px;
+    height: 448px;
+    flex-shrink: 0;
+}
+.arrow{
+    width: 112px;
+    height: 112px;
+    background-image: url(images/section2images/Frame.png);
+}
+.s2-text-card .min-text{
+    color:#118DA8;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+}
+.s2-text-card h1{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 79.2px; /* 121.846% */
+    letter-spacing: 2.88px;
+}
+.s2-text-card h5{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+}
+.s2-img{
+    width: 650px;
+    height: 743px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: url(images/section2images/Jacob.png), lightgray 50% / cover no-repeat;
+}
+.sub-updates{
+    width: 1400px;
+    height: 587px;
+    flex-shrink: 0;
+}
+.s2-content-zone2{
+    width: 1300px;
+    height: 387px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.z2-text{
+    width: 642px;
+    height: 330px;
+    flex-shrink: 0;
+    padding: 5px;
+}
+.z2-text h5{
+    color: #118DA8;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+}
+.z2-text h1{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 79.2px; /* 110% */
+    letter-spacing: 2.88px;
+}
+.input-zone{
+    width: 522px;
+    height: 252px;
+    flex-shrink: 0;
+}
+.input-container {
+    width: 500px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.custom-input {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 1px;
+    background-color: #262626;
+}
+.submit-button {
+    width: 87px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #118DA8;
+    border: none;
+}
+
+/* 3-я секция */
+.section-3{
+    height: 900px;
+    align-items: center;
+}
+.s3-card-container{
+    width: 90%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+.s3-card{
+    width: 423px;
+    height: 321px;
+    border-radius: 32px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+
+}
+.s3-card h1{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px; /* 120% */
+}
+.s3-card h3{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px; /* 120% */
+}
+
+/* футер */
+footer{
+    height: 450;
+}
+.f-navigation{
+    display: grid;
+    width: 1300px;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: flex-start;
+
+}
+.castaway-img{
+    display: flex;
+    width: 447.141px;
+    height: 222px;
+    padding: 0.125px 0px 128.891px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 19.984px;
+    flex-shrink: 0;
+}
+
+.f-nav1{
+    display: flex;
+    width: 178.844px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.f-nav1 h5{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+    }
+.f-nav2{
+    display: flex;
+    width: 178.844px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.f-nav2 h5{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    }
+.f-app{
+    display: flex;
+    width: 1300px;
+    justify-content:flex-start;
+    gap: 16px;
+}
